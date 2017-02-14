@@ -3,6 +3,16 @@
   background-image: url("../img/bgheader.png");
   height: auto;
 }
-.navbar-custom{
+.logo{
+  padding: 10px 0px 10px 0px;
+}
 
+.icons{
+  float: right;
+  display: inline-flex;
+  padding: 10px 0px 10px 0px;
+  align-items: center;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: transparent;
 }
