@@ -16,3 +16,8 @@
 .nav>li>a:focus, .nav>li>a:hover {
     background-color: transparent;
 }
+@media (max-width: 768px){
+  .navbar-header {
+    float: left;
+  }
+}
