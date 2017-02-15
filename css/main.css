@@ -1,3 +1,10 @@
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #e5e5e5;
+  color: #fffeff;
+}
+
 /*Header*/
 .header-section{
   background-image: url("../img/bgheader.png");
@@ -19,5 +26,90 @@
 @media (max-width: 768px){
   .navbar-header {
     float: left;
+  }
+}
+
+/*Home*/
+.home{
+  position: absolute;
+}
+.bg-home{
+  width: 100%;
+  height: auto;
+}
+.caption{
+  position: absolute;
+  top: 40%;
+  left: 4%;
+  line-height: normal;
+}
+.caption>hr{
+  width: 7%;
+  float: left;
+  border-top: 2px solid #fffeff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+.caption>h1{
+  font-weight: bold;
+}
+.caption>p{
+  font-size: 22px;
+  float: left;
+}
+.caption>p>strong{
+  color: #FFC501;
+  font-weight: 700;
+}
+@media (max-width: 1199px){
+  .caption{
+    top: 30%;
+  }
+  .caption>p{
+    font-size: 20px;
+  }
+}
+@media (max-width: 991px){
+  .caption{
+    top: 20%;
+  }
+  .caption>h1{
+    font-size: 30px;
+  }
+  .caption>p{
+    font-size: 18px;
+  }
+}
+@media (max-width: 670px){
+  .caption{
+    top: 10%;
+  }
+  .caption>h1{
+    font-size: 25px;
+  }
+  .caption>p{
+    font-size: 13px;
+  }
+  .caption>hr{
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+  }
+}
+@media (max-width: 490px){
+  .caption{
+    top: 0%;
+  }
+  .caption>h1{
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .caption>p{
+    font-size: 10px;
+  }
+  .caption>hr{
+    margin-top: 1px;
+    margin-bottom: 5px;
   }
 }
