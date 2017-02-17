@@ -51,7 +51,7 @@ body {
 .caption>hr{
   width: 7%;
   float: left;
-  border-top: 2px solid #fffeff;
+  border-top: 3px solid #fffeff;
   margin-top: 10px;
   margin-bottom: 20px;
 
@@ -140,10 +140,6 @@ body {
   background-color: inherit;
   padding: 0;
 }
-.dropdown{
-  border-right: 2px solid #EBE9EB;
-
-}
 .btn .caret {
     margin-left: 25px;
     margin-right: 10px;
@@ -154,17 +150,65 @@ body {
   color: #FF202C;
   padding: 5px 20px 5px 20px;
   border-right: 2px solid #EBE9EB;
+  border-left: 2px solid #EBE9EB;
 }
 .sort{
   padding: 5px 20px 5px 20px;
   border-right: 2px solid #EBE9EB;
   color: #515D6E;
+  height: 30px;
 }
 .list{
   padding: 5px 20px 5px 20px;
   color: #515D6E;
+  height: 30px;
 }
 .icons-filter{
   color: #515D6E;
   font-weight: 600;
+}
+.images{
+    padding-top: 20px;
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+.course{
+  border-radius: 5px;
+  width: 100%;
+  text-decoration: none;
+  box-shadow: 1px 1px 10px grey;
+  margin: 20px 0px;
+}
+.more-icon{
+  position: absolute;
+}
+.content{
+  color: #515D6E;
+  padding: 10px;
+}
+.content>h5{
+  margin-bottom: 15px;
+}
+.content>h6{
+  line-height: 0.7;
+  font-weight: 300;
+}
+.icons-course{
+  display: flex;
+  padding: 10px 5px 10px 5px;
+  align-items: center;
+  justify-content: space-around;
+}
+.face-icon{
+  font-size: 14px;
+  color: #515D6E;
+  position: relative;
+  top: 3px;
+
+}
+.icons-course{
+  font-size: 12px;
+  color: #515D6E;
 }
