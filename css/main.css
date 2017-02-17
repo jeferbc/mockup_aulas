@@ -4,6 +4,9 @@ body {
   background-color: #e5e5e5;
   color: #fffeff;
 }
+a:focus, a:hover {
+    text-decoration: none;
+}
 
 /*Header*/
 .header-section{
@@ -122,7 +125,7 @@ body {
 .courses{
   position: absolute;
   background-color: #FFFEFF;
-  margin-top: 30px;
+  margin: 30px 0px;
   width: 100%;
   padding: 28px;
   border-radius: 5px;
@@ -135,6 +138,7 @@ body {
 .filters{
   display: inline-flex;
   align-items: center;
+  padding: 20px 0px;
 }
 .btn{
   background-color: inherit;
@@ -186,10 +190,11 @@ body {
 }
 .content{
   color: #515D6E;
-  padding: 10px;
+  padding: 20px;
 }
 .content>h5{
   margin-bottom: 15px;
+  font-size: 12px;
 }
 .content>h6{
   line-height: 0.7;
