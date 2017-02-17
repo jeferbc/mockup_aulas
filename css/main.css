@@ -140,6 +140,7 @@ a:focus, a:hover {
   align-items: center;
   padding: 20px 0px;
 }
+
 .btn{
   background-color: inherit;
   padding: 0;
@@ -166,6 +167,21 @@ a:focus, a:hover {
   padding: 5px 20px 5px 20px;
   color: #515D6E;
   height: 30px;
+}
+@media (max-width: 490px){
+  .btn .caret {
+      margin-left: 12px;
+      margin-right: 5px;
+  }
+  .suggested{
+    padding: 5px 10px 5px 10px;
+  }
+  .sort{
+    padding: 5px 10px 5px 10px;
+  }
+  .list{
+    padding: 5px 10px 5px 10px;
+  }
 }
 .icons-filter{
   color: #515D6E;
